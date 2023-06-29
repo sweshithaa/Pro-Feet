@@ -1,6 +1,6 @@
 # Pro-Feet
 
-I have created the Nike showroom store, The user can buy different shes available and they can check the features of our shop.
+I have created the Nike showroom store, The user can buy different shoes available in the store and they can check the features of our shop.
 The user can ordere the shoes based on there size and color preference.
 I have used HTML, CSS, JS, MICROSOFT AZURE STORAGE ACCOUNTS, STATIC WEB APPS.
 storage account is used for storing the source code in the cloud container.
