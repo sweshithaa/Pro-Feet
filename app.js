@@ -5,7 +5,7 @@ const products = [
   {
     id: 1,
     title: "Air Force",
-    price: 1219,
+    price: 1319,
     colors: [
       {
         code: "black",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 2,
     title: "Air Jordan",
-    price: 1499,
+    price: 2149,
     colors: [
       {
         code: "lightgray",
@@ -35,7 +35,7 @@ const products = [
   {
     id: 3,
     title: "Blazer",
-    price: 1909,
+    price: 1309,
     colors: [
       {
         code: "lightgray",
@@ -50,7 +50,7 @@ const products = [
   {
     id: 4,
     title: "Crater",
-    price: 1929,
+    price: 1229,
     colors: [
       {
         code: "black",
@@ -65,7 +65,7 @@ const products = [
   {
     id: 5,
     title: "Hippie",
-    price: 2099,
+    price: 2399,
     colors: [
       {
         code: "gray",
@@ -90,7 +90,7 @@ const currentProductSizes = document.querySelectorAll(".size");
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
     //change the current slide
-    wrapper.style.transform = `translateX(₹{-100 * index}vw)`;
+    wrapper.style.transform = `translateX(${-100 * index}vw)`;
 
     //change the choosen product
     choosenProduct = products[index];
@@ -135,3 +135,4 @@ productButton.addEventListener("click", () => {
 close.addEventListener("click", () => {
   payment.style.display = "none";
 });
+
